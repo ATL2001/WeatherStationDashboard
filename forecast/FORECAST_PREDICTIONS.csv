@@ -1,0 +1,2 @@
+id,number,startTime,endTime,isDaytime,temperature,probabilityOfPrecipitation,dewpoint,windSpeed,windDirection,forecast_updated_time,forecast_descriptions_id,icon_id
+1.0,1,2023-07-12T01:00:00.000000+0000,2023-07-12T02:00:00.000000+0000,false,84,1,65,7,135,2023-07-11T22:52:41.000000+0000,4,0
