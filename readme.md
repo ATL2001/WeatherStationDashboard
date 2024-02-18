@@ -15,3 +15,10 @@ The NWS has a great free API for accessing forecast data all over the United Sta
 The Dashboard was built using [Plotly's Dash](https://dash.plotly.com/) framework.  All the plots in the dashboard are automatically updated every 5 minutes, and the current weather conditions (temp, wind, etc) are updated every 15 seconds.  All the data is wrangled using [polars](https://docs.pola.rs/) the sunrise/sunset times used for shading the background of the plots are all calculated by the [astral](https://astral.readthedocs.io/en/latest/) package. 
 
 ![Screenshot of the weather dashboard from a cold January afternoon](Weather_Dashboard.PNG "Brrrr that's chilly!")
+
+### Interaction/Tooltips
+When you mouse over any of the plots tooltips appear to show details about the data, and applying a filter to the temp/dewpoint figure will subsuquently filter the other figures to the same time period (which is a lot of fun to use when a big cold rain front comes in and the temp drops real fast, the wind picks up and the daily rain skyrockets!)
+
+
+https://github.com/ATL2001/WeatherStationDashboard/assets/35881864/1dfd9be3-fc9c-4e78-8ffe-91fd0f962fac
+
